@@ -21,6 +21,7 @@
 .web{
     display: flex;
     justify-content: space-evenly;
+    Flex-wrap: wrap;
 }
 
 .web .cart .text{
