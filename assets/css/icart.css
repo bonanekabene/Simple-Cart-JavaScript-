@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title h1{
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    font-style: italic;
+}
+
+.web .cart .img img{
+    width: 200px;
+    height: 200px;
+}
+
+.web{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.web .cart{
+    margin-top: 20px;
+}
+
+.web .cart .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web .cart .text .text-l h2,p{
+    text-align: center;
+}
+
+.web .cart .text .text-l .p{
+    text-align: center;
+    background: grey;
+    padding: 6px;
+    color: white;
+}
+
+.web .cart .text .text-l .str{
+    text-decoration: line-through;
+}
+
+.web .cart .text .text-l input{
+    padding: 4px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.web .cart .text .text-l button{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;
+}
+
+table{
+    float: right;
+    margin-right: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+thead {
+    border-right: 2px solid black;
+    background: black;
+    padding: 20px;
+    color: white !important;
+}
+
+th{
+    margin: 10px;
+}
+
+td {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.total{
+    float: right;
+    margin-right: 60px;
+}
+
+#hotdog{
+    display: none;
+}
+
+#chicken{
+    display: none;
+}
+
+#pizza{
+    display: none;
+}
+
+#barger{
+    display: none;
+}
+
+#chips{
+    display: none;
+}
+
+@media  screen and (max-width: 550px) {
+    table{
+        float: right;
+        margin-right: 20px;
+    }
+}
